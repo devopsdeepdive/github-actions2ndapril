@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  compile-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Run single script
+          run: echo Helloworld
+    
